@@ -9,7 +9,7 @@ import numpy as np
 some_colors = ['red', 'green', 'blue', 'yellow']
 
 st.set_page_config(layout="wide")
-st.title("🔍 Keyword Web Crawler with BFS & DFS")
+st.title("Keyword Web Crawler with BFS & DFS")
 
 url = st.text_input("Enter starting URL", "https://example.com")
 keyword = st.text_input("Keyword to search for", "example")
